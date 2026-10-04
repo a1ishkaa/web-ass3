@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Responsive Web Design</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Task 3 and Task 4: Navigation -->
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">My Portfolio</a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarMenu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tasks">Tasks</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Task 0: Responsive Typography -->
+
+    <section id="home" class="container text-section">
+
+        <h1>Responsive Web Design</h1>
+
+        <p>
+            This page demonstrates responsive design using CSS Media Queries
+            and the Bootstrap Grid System.
+        </p>
+
+        <p>
+            The page changes its layout and font sizes depending
+            on the screen size.
+        </p>
+
+    </section>
+
+
+    <!-- Task 1: Media Queries -->
+
+    <section id="tasks" class="container task-section">
+
+        <h2>Task 1: Media Queries</h2>
+
+        <div class="boxes">
+
+            <div class="box">
+                <h3>Box 1</h3>
+                <p>Responsive box number one.</p>
+            </div>
+
+            <div class="box">
+                <h3>Box 2</h3>
+                <p>Responsive box number two.</p>
+            </div>
+
+            <div class="box">
+                <h3>Box 3</h3>
+                <p>Responsive box number three.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Task 2: Bootstrap Grid -->
+
+    <section class="container task-section">
+
+        <h2>Task 2: Bootstrap Grid</h2>
+
+        <div class="row">
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="grid-box">
+                    <h3>Column 1</h3>
+                    <p>Bootstrap responsive column.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="grid-box">
+                    <h3>Column 2</h3>
+                    <p>Bootstrap responsive column.</p>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="grid-box">
+                    <h3>Column 3</h3>
+                    <p>Bootstrap responsive column.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Task 4: Portfolio -->
+
+    <main id="portfolio" class="container task-section">
+
+        <h2>Task 4: My Portfolio</h2>
+
+        <div class="row">
+
+            <!-- Projects -->
+
+            <div class="col-12 col-lg-8">
+
+                <h3>My Projects</h3>
+
+                <div class="row">
+
+                    <div class="col-12 col-md-6">
+
+                        <div class="card project-card">
+
+                            <div class="card-body">
+
+                                <h4 class="card-title">Project 1</h4>
+
+                                <p class="card-text">
+                                    My first responsive web project.
+                                </p>
+
+                                <a href="#" class="btn btn-dark">
+                                    View Project
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-12 col-md-6">
+
+                        <div class="card project-card">
+
+                            <div class="card-body">
+
+                                <h4 class="card-title">Project 2</h4>
+
+                                <p class="card-text">
+                                    A simple website using CSS Grid.
+                                </p>
+
+                                <a href="#" class="btn btn-dark">
+                                    View Project
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-12 col-md-6">
+
+                        <div class="card project-card">
+
+                            <div class="card-body">
+
+                                <h4 class="card-title">Project 3</h4>
+
+                                <p class="card-text">
+                                    A project using Bootstrap components.
+                                </p>
+
+                                <a href="#" class="btn btn-dark">
+                                    View Project
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-12 col-md-6">
+
+                        <div class="card project-card">
+
+                            <div class="card-body">
+
+                                <h4 class="card-title">Project 4</h4>
+
+                                <p class="card-text">
+                                    My responsive portfolio project.
+                                </p>
+
+                                <a href="#" class="btn btn-dark">
+                                    View Project
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Sidebar -->
+
+            <aside class="col-12 col-lg-4">
+
+                <div class="sidebar">
+
+                    <h3>About Me</h3>
+
+                    <p>
+                        My name is Alisher. I am an IT student
+                        interested in web development.
+                    </p>
+
+                    <h4>Contact</h4>
+
+                    <p>Email: alisher@example.com</p>
+
+                    <p>Phone: +7 700 000 0000</p>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer class="footer">
+
+        <p>
+            © 2026 Alisher | Responsive Web Design
+        </p>
+
+    </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
